@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="program">
+      <UniqueIdentifier>{0c8d419b-7fbf-46a5-9d30-f09afe1cddfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\game">
+      <UniqueIdentifier>{7fbf3ba3-7c01-4e64-9745-4a7bee308b1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\system">
+      <UniqueIdentifier>{025ad2b9-8acc-4c6c-bcd5-2fceeee3257d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\system\Data">
+      <UniqueIdentifier>{8a1fbc08-c4cc-4025-af90-f77c244f73b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\system\header">
+      <UniqueIdentifier>{003eb6b9-9137-4884-bb8f-8acf2f438586}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="program\Game.cpp">
+      <Filter>program</Filter>
+    </ClCompile>
+    <ClCompile Include="program\Main.cpp">
+      <Filter>program</Filter>
+    </ClCompile>
+    <ClCompile Include="program\Float2.cpp">
+      <Filter>program\system</Filter>
+    </ClCompile>
+    <ClCompile Include="program\Hit.cpp">
+      <Filter>program\system</Filter>
+    </ClCompile>
+    <ClCompile Include="program\Random.cpp">
+      <Filter>program\system</Filter>
+    </ClCompile>
+    <ClCompile Include="program\Bubble.cpp">
+      <Filter>program\system</Filter>
+    </ClCompile>
+    <ClCompile Include="program\Stage.cpp">
+      <Filter>program\system</Filter>
+    </ClCompile>
+    <ClCompile Include="program\GameMechanic.cpp">
+      <Filter>program\system</Filter>
+    </ClCompile>
+    <ClCompile Include="program\Launcher.cpp">
+      <Filter>program\system</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="program\Game.h">
+      <Filter>program</Filter>
+    </ClInclude>
+    <ClInclude Include="program\Main.h">
+      <Filter>program</Filter>
+    </ClInclude>
+    <ClInclude Include="program\basedata.h">
+      <Filter>program\system\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="program\Launcher.h">
+      <Filter>program\system\header</Filter>
+    </ClInclude>
+    <ClInclude Include="program\Stage.h">
+      <Filter>program\system\header</Filter>
+    </ClInclude>
+    <ClInclude Include="program\Hit.h">
+      <Filter>program\system\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>program\system\header</Filter>
+    </ClInclude>
+    <ClInclude Include="program\Random.h">
+      <Filter>program\system\header</Filter>
+    </ClInclude>
+    <ClInclude Include="program\Float2.h">
+      <Filter>program\system\header</Filter>
+    </ClInclude>
+    <ClInclude Include="program\GameMechanic.h">
+      <Filter>program\system\header</Filter>
+    </ClInclude>
+    <ClInclude Include="program\Bubble.h">
+      <Filter>program\system\header</Filter>
+    </ClInclude>
+    <ClInclude Include="program\board.h">
+      <Filter>program\system\header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="program\images.inc">
+      <Filter>program\system\Data</Filter>
+    </None>
+  </ItemGroup>
+</Project>
